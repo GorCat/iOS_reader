@@ -51,6 +51,7 @@ class RDReadToolBar: UIView {
             button.setImage(UIImage(named: img + "_select"), for: .selected)
             button.imageSize = CGSize(width: 25, height: 25)
             button.addTarget(self, action: #selector(click(_:)), for: .touchUpInside)
+            addSubview(button)
         }
     }
     

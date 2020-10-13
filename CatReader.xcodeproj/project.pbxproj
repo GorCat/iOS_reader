@@ -24,6 +24,7 @@
 		E24ACF28253591D000BECEDA /* RDLayoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24ACF27253591D000BECEDA /* RDLayoutButton.swift */; };
 		E24ACF2A2535933A00BECEDA /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24ACF292535933A00BECEDA /* Tool.swift */; };
 		E24ACF2C25359B3700BECEDA /* RDReadToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24ACF2B25359B3700BECEDA /* RDReadToolBar.swift */; };
+		E24ACF2E2535A41F00BECEDA /* RDReadTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24ACF2D2535A41F00BECEDA /* RDReadTopBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		E24ACF27253591D000BECEDA /* RDLayoutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDLayoutButton.swift; sourceTree = "<group>"; };
 		E24ACF292535933A00BECEDA /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
 		E24ACF2B25359B3700BECEDA /* RDReadToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDReadToolBar.swift; sourceTree = "<group>"; };
+		E24ACF2D2535A41F00BECEDA /* RDReadTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDReadTopBar.swift; sourceTree = "<group>"; };
 		EB224706391A5FAFA69CC833 /* Pods-CatReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatReader.debug.xcconfig"; path = "Target Support Files/Pods-CatReader/Pods-CatReader.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -179,6 +181,7 @@
 			children = (
 				E24ACF1D2535651A00BECEDA /* RDReadPageView.swift */,
 				E24ACF2B25359B3700BECEDA /* RDReadToolBar.swift */,
+				E24ACF2D2535A41F00BECEDA /* RDReadTopBar.swift */,
 				E24ACF27253591D000BECEDA /* RDLayoutButton.swift */,
 				E24ACF2325358F0300BECEDA /* RDButton.swift */,
 			);
@@ -307,6 +310,7 @@
 				E24ACF2425358F0300BECEDA /* RDButton.swift in Sources */,
 				E22519C1253555EA0097F47E /* BaseViewController.swift in Sources */,
 				E22519BF253555CD0097F47E /* BaseNavigationController.swift in Sources */,
+				E24ACF2E2535A41F00BECEDA /* RDReadTopBar.swift in Sources */,
 				E22519AC25354E770097F47E /* ViewController.swift in Sources */,
 				E22519A825354E770097F47E /* AppDelegate.swift in Sources */,
 				E24ACF28253591D000BECEDA /* RDLayoutButton.swift in Sources */,

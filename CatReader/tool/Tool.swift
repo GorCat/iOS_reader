@@ -67,4 +67,14 @@ extension UIView {
     static var margins: CGFloat {
         return 15
     }
+    
+    func set(right: CGFloat) {
+        var new = frame
+        new.origin.x = right - frame.size.width
+        frame = new
+    }
+   
+    var left: CGFloat {
+        return frame.origin.x;
+    }
 }
