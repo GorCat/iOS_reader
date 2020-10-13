@@ -9,8 +9,14 @@
 import UIKit
 
 class RDReadPageViewController: BaseViewController {
-    //书籍详情与阅读进度
+    // 书籍详情与阅读进度
     var bookDetail: RDBookDetailModel
+    
+    var pageViewController: UIPageViewController?
+    // 简短的章节信息，不包含内容
+    var charpters: [RDCharpterModel] = []
+    var brightnessView: UIView?
+    var isShowStatusBar = false
     
     init(bookDetail: RDBookDetailModel) {
         self.bookDetail = bookDetail
