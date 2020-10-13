@@ -17,6 +17,8 @@
 		E22519BF253555CD0097F47E /* BaseNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22519BE253555CD0097F47E /* BaseNavigationController.swift */; };
 		E22519C1253555EA0097F47E /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22519C0253555EA0097F47E /* BaseViewController.swift */; };
 		E22519C3253555FB0097F47E /* BaseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22519C2253555FB0097F47E /* BaseTableViewController.swift */; };
+		E24ACF1825355B9300BECEDA /* RDReadPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24ACF1725355B9300BECEDA /* RDReadPageViewController.swift */; };
+		E24ACF1B25355EB800BECEDA /* RDBookDetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24ACF1A25355EB800BECEDA /* RDBookDetailModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		E22519BE253555CD0097F47E /* BaseNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseNavigationController.swift; sourceTree = "<group>"; };
 		E22519C0253555EA0097F47E /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		E22519C2253555FB0097F47E /* BaseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableViewController.swift; sourceTree = "<group>"; };
+		E24ACF1725355B9300BECEDA /* RDReadPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDReadPageViewController.swift; sourceTree = "<group>"; };
+		E24ACF1A25355EB800BECEDA /* RDBookDetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDBookDetailModel.swift; sourceTree = "<group>"; };
 		EB224706391A5FAFA69CC833 /* Pods-CatReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatReader.debug.xcconfig"; path = "Target Support Files/Pods-CatReader/Pods-CatReader.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +101,7 @@
 		E22519BB25354F3E0097F47E /* mian */ = {
 			isa = PBXGroup;
 			children = (
+				E24ACF1625355B6000BECEDA /* RDReader */,
 			);
 			path = mian;
 			sourceTree = "<group>";
@@ -138,6 +143,23 @@
 				E22519BD2535547E0097F47E /* base */,
 			);
 			path = tool;
+			sourceTree = "<group>";
+		};
+		E24ACF1625355B6000BECEDA /* RDReader */ = {
+			isa = PBXGroup;
+			children = (
+				E24ACF1725355B9300BECEDA /* RDReadPageViewController.swift */,
+				E24ACF1925355EA800BECEDA /* model */,
+			);
+			path = RDReader;
+			sourceTree = "<group>";
+		};
+		E24ACF1925355EA800BECEDA /* model */ = {
+			isa = PBXGroup;
+			children = (
+				E24ACF1A25355EB800BECEDA /* RDBookDetailModel.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -255,12 +277,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E24ACF1825355B9300BECEDA /* RDReadPageViewController.swift in Sources */,
 				E22519C3253555FB0097F47E /* BaseTableViewController.swift in Sources */,
 				E22519C1253555EA0097F47E /* BaseViewController.swift in Sources */,
 				E22519BF253555CD0097F47E /* BaseNavigationController.swift in Sources */,
 				E22519AC25354E770097F47E /* ViewController.swift in Sources */,
 				E22519A825354E770097F47E /* AppDelegate.swift in Sources */,
 				E22519AA25354E770097F47E /* SceneDelegate.swift in Sources */,
+				E24ACF1B25355EB800BECEDA /* RDBookDetailModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

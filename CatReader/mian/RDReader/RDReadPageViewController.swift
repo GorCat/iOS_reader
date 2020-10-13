@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RDReadPageViewController.swift
 //  CatReader
 //
 //  Created by GorCat on 2020/10/13.
@@ -8,20 +8,13 @@
 
 import UIKit
 
-class ViewController: BaseViewController {
+class RDReadPageViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
+
     override func initSubviews() {
         super.initSubviews()
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "详情", style: .plain, target: self, action: #selector(pushToDetail))
     }
-    
-    @objc func pushToDetail() {
-        
-    }
-
 }
-

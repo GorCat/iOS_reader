@@ -16,6 +16,7 @@ class BaseViewController: UIViewController {
     }
     
     func initSubviews() {
+        view.backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
     }
     
 }
