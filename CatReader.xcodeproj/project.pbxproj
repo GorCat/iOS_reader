@@ -86,8 +86,9 @@
 		E22519A625354E770097F47E /* CatReader */ = {
 			isa = PBXGroup;
 			children = (
+				E22519C5253556340097F47E /* tool */,
 				E22519BC25354F460097F47E /* support */,
-				E22519BD2535547E0097F47E /* base */,
+				E22519C4253556220097F47E /* global */,
 				E22519BB25354F3E0097F47E /* mian */,
 			);
 			path = CatReader;
@@ -122,6 +123,21 @@
 				E22519C2253555FB0097F47E /* BaseTableViewController.swift */,
 			);
 			path = base;
+			sourceTree = "<group>";
+		};
+		E22519C4253556220097F47E /* global */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = global;
+			sourceTree = "<group>";
+		};
+		E22519C5253556340097F47E /* tool */ = {
+			isa = PBXGroup;
+			children = (
+				E22519BD2535547E0097F47E /* base */,
+			);
+			path = tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,7 +336,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -374,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;

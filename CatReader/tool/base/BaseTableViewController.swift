@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  BaseTableViewController.swift
 //  CatReader
 //
 //  Created by GorCat on 2020/10/13.
@@ -8,16 +8,15 @@
 
 import UIKit
 
-class ViewController: BaseViewController {
-
+class BaseTableViewController: UITableViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        initSubviews()
     }
     
-    override func initSubviews() {
-        super.initSubviews()
+    func initSubviews() {
     }
     
-
 }
 

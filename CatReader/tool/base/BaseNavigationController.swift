@@ -1,5 +1,6 @@
+
 //
-//  ViewController.swift
+//  BaseNavigationController.swift
 //  CatReader
 //
 //  Created by GorCat on 2020/10/13.
@@ -8,16 +9,10 @@
 
 import UIKit
 
-class ViewController: BaseViewController {
+class BaseNavigationController: UINavigationController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
     }
-    
-    override func initSubviews() {
-        super.initSubviews()
-    }
-    
 
 }
-
