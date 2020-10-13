@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-CatReader/Pods-CatReader-frameworks.sh
+${BUILT_PRODUCTS_DIR}/PKHUD/PKHUD.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework
