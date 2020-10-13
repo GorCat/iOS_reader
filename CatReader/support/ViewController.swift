@@ -20,7 +20,8 @@ class ViewController: BaseViewController {
     }
     
     @objc func pushToDetail() {
-        
+        let vc = RDReadPageViewController(bookDetail: RDBookDetailModel())
+        navigationController?.pushViewController(vc, animated: true)
     }
 
 }
