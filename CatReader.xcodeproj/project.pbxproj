@@ -23,6 +23,7 @@
 		E24ACF2425358F0300BECEDA /* RDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24ACF2325358F0300BECEDA /* RDButton.swift */; };
 		E24ACF28253591D000BECEDA /* RDLayoutButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24ACF27253591D000BECEDA /* RDLayoutButton.swift */; };
 		E24ACF2A2535933A00BECEDA /* Tool.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24ACF292535933A00BECEDA /* Tool.swift */; };
+		E24ACF2C25359B3700BECEDA /* RDReadToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24ACF2B25359B3700BECEDA /* RDReadToolBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		E24ACF2325358F0300BECEDA /* RDButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDButton.swift; sourceTree = "<group>"; };
 		E24ACF27253591D000BECEDA /* RDLayoutButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDLayoutButton.swift; sourceTree = "<group>"; };
 		E24ACF292535933A00BECEDA /* Tool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tool.swift; sourceTree = "<group>"; };
+		E24ACF2B25359B3700BECEDA /* RDReadToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDReadToolBar.swift; sourceTree = "<group>"; };
 		EB224706391A5FAFA69CC833 /* Pods-CatReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatReader.debug.xcconfig"; path = "Target Support Files/Pods-CatReader/Pods-CatReader.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -148,8 +150,8 @@
 		E22519C5253556340097F47E /* tool */ = {
 			isa = PBXGroup;
 			children = (
-				E22519BD2535547E0097F47E /* base */,
 				E24ACF292535933A00BECEDA /* Tool.swift */,
+				E22519BD2535547E0097F47E /* base */,
 			);
 			path = tool;
 			sourceTree = "<group>";
@@ -176,6 +178,7 @@
 			isa = PBXGroup;
 			children = (
 				E24ACF1D2535651A00BECEDA /* RDReadPageView.swift */,
+				E24ACF2B25359B3700BECEDA /* RDReadToolBar.swift */,
 				E24ACF27253591D000BECEDA /* RDLayoutButton.swift */,
 				E24ACF2325358F0300BECEDA /* RDButton.swift */,
 			);
@@ -309,6 +312,7 @@
 				E24ACF28253591D000BECEDA /* RDLayoutButton.swift in Sources */,
 				E22519AA25354E770097F47E /* SceneDelegate.swift in Sources */,
 				E24ACF1B25355EB800BECEDA /* RDBookDetailModel.swift in Sources */,
+				E24ACF2C25359B3700BECEDA /* RDReadToolBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

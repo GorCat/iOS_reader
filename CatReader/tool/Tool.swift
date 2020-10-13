@@ -21,3 +21,50 @@ class Tool {
     }
 
 }
+
+extension UIView {
+    ///判断是否为X,指带刘海屏的设备
+    static var isIphoneX: Bool {
+        var safeAreaBottom: CGFloat = 0
+        if #available(iOS 11.0, *) {
+            if #available(iOS 13.0, *) {
+                safeAreaBottom = UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.safeAreaInsets.bottom ?? 0
+            } else {
+                safeAreaBottom = UIApplication.shared.keyWindow?.safeAreaInsets.bottom ?? 0
+            }
+        }
+        return safeAreaBottom != 0
+    }
+    
+    static var statusBar: CGFloat {
+        return self.isIphoneX ? 44 : 20
+    }
+    
+    static var navigationBar: CGFloat {
+        return 44
+    }
+    
+    static var tarBar: CGFloat {
+        return self.isIphoneX ? 49 + 34 : 49
+    }
+    
+    static var safeBottomBar: CGFloat {
+        var safeAreaBottom: CGFloat = 0
+        if #available(iOS 11.0, *) {
+            if #available(iOS 13.0, *) {
+                safeAreaBottom = UIApplication.shared.windows.filter {$0.isKeyWindow}.first?.safeAreaInsets.bottom ?? 0
+            } else {
+                safeAreaBottom = UIApplication.shared.keyWindow?.safeAreaInsets.bottom ?? 0
+            }
+        }
+        return safeAreaBottom
+    }
+    
+    static var safeTopBar: CGFloat {
+        return self.isIphoneX ? 24 : 0
+    }
+    
+    static var margins: CGFloat {
+        return 15
+    }
+}
