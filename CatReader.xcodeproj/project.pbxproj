@@ -27,6 +27,7 @@
 		E24ACF2C25359B3700BECEDA /* RDReadToolBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24ACF2B25359B3700BECEDA /* RDReadToolBar.swift */; };
 		E24ACF2E2535A41F00BECEDA /* RDReadTopBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24ACF2D2535A41F00BECEDA /* RDReadTopBar.swift */; };
 		E24ACF322535AA7C00BECEDA /* RDReadToolPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E24ACF312535AA7C00BECEDA /* RDReadToolPageView.swift */; };
+		E27696452536E95C0083D2F8 /* RDModelAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27696442536E95C0083D2F8 /* RDModelAgent.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		E24ACF2B25359B3700BECEDA /* RDReadToolBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDReadToolBar.swift; sourceTree = "<group>"; };
 		E24ACF2D2535A41F00BECEDA /* RDReadTopBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDReadTopBar.swift; sourceTree = "<group>"; };
 		E24ACF312535AA7C00BECEDA /* RDReadToolPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDReadToolPageView.swift; sourceTree = "<group>"; };
+		E27696442536E95C0083D2F8 /* RDModelAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDModelAgent.swift; sourceTree = "<group>"; };
 		EB224706391A5FAFA69CC833 /* Pods-CatReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatReader.debug.xcconfig"; path = "Target Support Files/Pods-CatReader/Pods-CatReader.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -177,6 +179,7 @@
 			children = (
 				E219500E253695D20050F819 /* RDReadConfigManager.swift */,
 				E24ACF1A25355EB800BECEDA /* RDBookDetailModel.swift */,
+				E27696442536E95C0083D2F8 /* RDModelAgent.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				E24ACF28253591D000BECEDA /* RDLayoutButton.swift in Sources */,
 				E22519AA25354E770097F47E /* SceneDelegate.swift in Sources */,
 				E24ACF1B25355EB800BECEDA /* RDBookDetailModel.swift in Sources */,
+				E27696452536E95C0083D2F8 /* RDModelAgent.swift in Sources */,
 				E24ACF2C25359B3700BECEDA /* RDReadToolBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
