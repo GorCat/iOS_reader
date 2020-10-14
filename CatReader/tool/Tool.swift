@@ -93,3 +93,15 @@ struct CodableColor: Codable {
         uiColor.getRed(&red, green: &green, blue: &blue, alpha: &alpha)
     }
 }
+
+struct LocalImage: Codable {
+    var name: String
+    
+    var image: UIImage {
+        return UIImage(named: name)!
+    }
+    
+    init(named: String) {
+        name = named
+    }
+}
