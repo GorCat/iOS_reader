@@ -77,4 +77,8 @@ extension UIView {
     var left: CGFloat {
         return frame.origin.x;
     }
+    
+    var right: CGFloat {
+         return frame.origin.x + frame.size.width;
+    }
 }
