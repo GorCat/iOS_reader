@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		25716BF50DA6323278A8165C /* Pods_CatReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FB8260353A5EA11833C623B /* Pods_CatReader.framework */; };
+		E219500F253695D20050F819 /* RDReadConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E219500E253695D20050F819 /* RDReadConfigManager.swift */; };
 		E22519A825354E770097F47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22519A725354E770097F47E /* AppDelegate.swift */; };
 		E22519AA25354E770097F47E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22519A925354E770097F47E /* SceneDelegate.swift */; };
 		E22519AC25354E770097F47E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E22519AB25354E770097F47E /* ViewController.swift */; };
@@ -31,6 +32,7 @@
 /* Begin PBXFileReference section */
 		933D1C99F60EDC59B9A888B9 /* Pods-CatReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CatReader.release.xcconfig"; path = "Target Support Files/Pods-CatReader/Pods-CatReader.release.xcconfig"; sourceTree = "<group>"; };
 		9FB8260353A5EA11833C623B /* Pods_CatReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CatReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E219500E253695D20050F819 /* RDReadConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RDReadConfigManager.swift; sourceTree = "<group>"; };
 		E22519A425354E770097F47E /* CatReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E22519A725354E770097F47E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E22519A925354E770097F47E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 		E24ACF1925355EA800BECEDA /* model */ = {
 			isa = PBXGroup;
 			children = (
+				E219500E253695D20050F819 /* RDReadConfigManager.swift */,
 				E24ACF1A25355EB800BECEDA /* RDBookDetailModel.swift */,
 			);
 			path = model;
@@ -313,6 +316,7 @@
 				E24ACF2425358F0300BECEDA /* RDButton.swift in Sources */,
 				E24ACF322535AA7C00BECEDA /* RDReadToolPageView.swift in Sources */,
 				E22519C1253555EA0097F47E /* BaseViewController.swift in Sources */,
+				E219500F253695D20050F819 /* RDReadConfigManager.swift in Sources */,
 				E22519BF253555CD0097F47E /* BaseNavigationController.swift in Sources */,
 				E24ACF2E2535A41F00BECEDA /* RDReadTopBar.swift in Sources */,
 				E22519AC25354E770097F47E /* ViewController.swift in Sources */,
